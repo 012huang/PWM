@@ -6,7 +6,9 @@ This is a utility to allow for adjust the PWM driver frequency delivered from In
 
 IntelPWMCA_Console.exe is compiled with the console output, IntelPWMCA.exe as windows app without console output.
 It take two arguments:
+
 1) the new PWM Frequency (from 50 to 20000Hz), if not present set the PWM frequency to 600Hz
+
 2) (optional) set the check period of the setting in second. For example 1 mean that the program check every second if the pwm frequency is changed and if true it set back to the requested value.
 
 Some examples:
