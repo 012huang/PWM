@@ -12,12 +12,14 @@ It take two arguments:
 2) (optional) set the check period of the setting in second. For example 1 mean that the program check every second if the pwm frequency is changed and if true it set back to the requested value.
 
 Some examples:
-Set the PWM frequency to 1500Hz and return 
+Set the PWM frequency to 1500Hz and return:
+
 D:\IntelPWMCA_Console 1500
 Current PWM: 220 Hz
 Set to: 1500 Hz
 
 Set the PWM frequency to 2000Hz and check every 2 seconds if it has changed (the program never end): 
+
 D:\IntelPWMCA_Console 2000 2
 Current PWM: 1500 Hz
 Set to: 2000 Hz
