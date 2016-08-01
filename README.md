@@ -1,7 +1,7 @@
 # WARNING: USE AT YOUR OWN RISK
 Adjusting the value from the default may affect the lifetime of your screen.  You might end up looking into the abyss.  You have been WARNED!
 
-# PWM
+# IntelPWMCA
 This is a utility to allow for adjust the PWM driver frequency delivered from Intel Graphics embedded GPU to the embedded LCD panel.
 
 IntelPWMCA_Console.exe is compiled with the console output, IntelPWMCA.exe as windows app without console output.
