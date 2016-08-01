@@ -14,16 +14,11 @@ It take two arguments:
 Some examples:
 Set the PWM frequency to 1500Hz and return:
 
-D:\IntelPWMCA_Console 1500
-Current PWM: 220 Hz
-Set to: 1500 Hz
+IntelPWMCA_Console 1500
 
 Set the PWM frequency to 2000Hz and check every 2 seconds if it has changed (the program never end): 
 
-D:\IntelPWMCA_Console 2000 2
-Current PWM: 1500 Hz
-Set to: 2000 Hz
-Current PWM: 2000 Hz
+IntelPWMCA_Console 2000 2
 
 Tested on Lenovo T530 on windows 7 professional, intel driver version 10.18.10.4358. Compiled with Microsoft Visual studio community 2015. 
 In my case the PWM frequency never reverts to default during britghness changes, screen power off or standby. It reverts only after a reboot, so the program can be called at startup and doesn't has to remain active (so no second parameter is needed).
