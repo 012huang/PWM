@@ -21,7 +21,7 @@ Current PWM: 1500 Hz
 Set to: 2000 Hz
 Current PWM: 2000 Hz
 
-Tested on Lenovo T530 on windows 7 professional, intel driver version 10.18.10.4358.
+Tested on Lenovo T530 on windows 7 professional, intel driver version 10.18.10.4358. Compiled with Microsoft Visual studio community 2015. 
 In my case the PWM frequency never reverts to default during britghness changes, screen power off or standby. It reverts only after a reboot, so the program can be called at startup and doesn't has to remain active (so no second parameter is needed).
 The PWM frequency seems to be limited at 10kHz, if set >10KHz the pwm frequency is accepted but the actual frequency remain 10kHz (checked by the "whistle" tone of the screen). Any possibilities to override this limit? The old intel driver with the dmytrov/IntelPWMControl software doesn't have thi limit.
 
